@@ -84,4 +84,4 @@ These tables are interlinked using **foreign keys** with **JOIN queries** and **
 
 ## 🤝 Team Members
 
-Tetiana Bogach, Nataliia Honcharova, Volodymyr Kyryliuk, Nataliia Musiienko, Viktoriia Pavlovska, Elias Sadeghi, Alona Tkachenko
+Viktoriia Pavlovska, Tetiana Bogach, Nataliia Honcharova, Volodymyr Kyryliuk, Nataliia Musiienko, Elias Sadeghi, Alona Tkachenko
