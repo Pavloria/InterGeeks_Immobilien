@@ -1,4 +1,5 @@
 InterGeeks_Immobilien 🏡
+
 A full-stack web application for intuitive and dynamic real estate management, developed as part of a collaborative university project at Hochschule Hannover in 2024.
 
 📌 Project Overview
