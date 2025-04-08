@@ -1,108 +1,87 @@
-InterGeeks_Immobilien 🏡
 
-A full-stack web application for intuitive and dynamic real estate management, developed as part of a collaborative university project at Hochschule Hannover in 2024.
+# InterGeeks_Immobilien 🏡
 
-📌 Project Overview
-InterGeeks_Immobilien is a real estate platform designed to provide users with seamless property browsing, account management, and communication tools. Developed using HTML, CSS, JavaScript (Frontend), PHP (Backend), and MySQL (Database), the platform offers a responsive and accessible user experience.
+A full-stack web application for intuitive and dynamic **real estate management**, developed as part of a collaborative university project at Hochschule Hannover in 2024.
 
-The project was executed using agile methodology (SCRUM) over two sprints, focusing on continuous improvement and collaboration within a cross-functional team of 7 members.
+## 📌 Project Overview
 
-🧑‍💻 Tech Stack
-Frontend: HTML, CSS, JavaScript
+**InterGeeks_Immobilien** is a real estate platform designed to provide users with seamless property browsing, account management, and communication tools. Developed using **HTML, CSS, JavaScript (Frontend)**, **PHP (Backend)**, and **MySQL (Database)**, the platform offers a responsive and accessible user experience.
 
-Backend: PHP
+The project was executed using **agile methodology (SCRUM)** over two sprints, focusing on continuous improvement and collaboration within a cross-functional team of 7 members.
 
-Database: MySQL
+## 🧑‍💻 Tech Stack
 
-Project Management Tools: Trello, GitHub
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Project Management Tools:** Trello, GitHub  
+- **Database Operations:** SQL Statements (SELECT, INSERT, UPDATE, DELETE)
 
-Database Operations: SQL Statements (SELECT, INSERT, UPDATE, DELETE)
+## 📁 Project Structure
 
-📁 Project Structure
 The application consists of several core pages:
 
-🏠 Homepage: With search and filter functionality
+- 🏠 **Homepage:** With search and filter functionality
+- 📝 **Registration & Login Pages**
+- 👤 **User Profile Page**
+- 📋 **My Ads Page:** For property management
+- ❤️ **My Favorites Page:** For saved listings
+- 📬 **Contact Page:** For communication with admin
 
-📝 Registration & Login Pages
+## 🗄️ Database Design
 
-👤 User Profile Page
-
-📋 My Ads Page: For property management
-
-❤️ My Favorites Page: For saved listings
-
-📬 Contact Page: For communication with admin
-
-🗄️ Database Design
 The relational database includes the following key tables:
 
-nutzer: Stores user details (encrypted passwords, emails, etc.)
+1. **`nutzer`**: Stores user details (encrypted passwords, emails, etc.)
+2. **`wohnungen`**: Property listings (title, description, price, etc.)
+3. **`favoriten`**: User-favorite relationships
+4. **`bilder`**: Images for property listings
+5. **`nachrichten`**: Contact and message requests
 
-wohnungen: Property listings (title, description, price, etc.)
+These tables are interlinked using **foreign keys** with **JOIN queries** and **transactions** to ensure data integrity.
 
-favoriten: User-favorite relationships
+## 🚀 Development Process
 
-bilder: Images for property listings
+### 🔁 Sprint 1
+- Planning and UI/UX design
+- HTML/CSS layout implementation
+- JavaScript functionalities
+- Figma prototypes and style guides
 
-nachrichten: Contact and message requests
+### 🧩 Sprint 2
+- Database setup and backend logic in PHP
+- Integration of frontend with backend
+- Feature completion: login, CRUD for ads, favorites, messages
+- Testing for responsiveness and functionality
 
-These tables are interlinked using foreign keys with JOIN queries and transactions to ensure data integrity.
+## ✅ Key Results
 
-🚀 Development Process
-🔁 Sprint 1
-Planning and UI/UX design
+- Fully functional multi-page web app with user interactivity
+- Implementation of agile practices including retrospectives and dailies
+- Hands-on experience with full-stack web development
 
-HTML/CSS layout implementation
+## 🛠️ Skills Gained
 
-JavaScript functionalities
+- Frontend: HTML, CSS, JavaScript fundamentals
+- Backend: PHP and MySQL integration
+- Agile Project Management: Sprint planning, Trello task tracking
+- Team Collaboration: SCRUM roles, retrospective improvement, GitHub versioning
 
-Figma prototypes and style guides
+## 🔄 Challenges & Improvements
 
-🧩 Sprint 2
-Database setup and backend logic in PHP
+- **Challenges:** Implementing complex SQL JOINs, working under tight deadlines, communication gaps
+- **Future Improvements:**  
+  - Switch frontend to **React** for better scalability  
+  - **Automated testing** for stability  
+  - Enhanced **planning and task estimation**  
+  - Frequent feedback loops from product owners  
 
-Integration of frontend with backend
+## 📦 Files Included
 
-Feature completion: login, CRUD for ads, favorites, messages
+- Full PHP source code with comments
+- MySQL `.sql` export file
+- Documentation in this GitHub repository
 
-Testing for responsiveness and functionality
+## 🤝 Team Members
 
-✅ Key Results
-Fully functional multi-page web app with user interactivity
-
-Implementation of agile practices including retrospectives and dailies
-
-Hands-on experience with full-stack web development
-
-🛠️ Skills Gained
-Frontend: HTML, CSS, JavaScript fundamentals
-
-Backend: PHP and MySQL integration
-
-Agile Project Management: Sprint planning, Trello task tracking
-
-Team Collaboration: SCRUM roles, retrospective improvement, GitHub versioning
-
-🔄 Challenges & Improvements
-Challenges: Implementing complex SQL JOINs, working under tight deadlines, communication gaps
-
-Future Improvements:
-
-Switch frontend to React for better scalability
-
-Automated testing for stability
-
-Enhanced planning and task estimation
-
-Frequent feedback loops from product owners
-
-📦 Files Included
-Full PHP source code with comments
-
-MySQL .sql export file
-
-Documentation in this GitHub repository
-
-🤝 Team Members
-Viktoriia Pavlovska, Tetiana Bogach, Nataliia Honcharova, Volodymyr Kyryliuk, Nataliia Musiienko, Elias Sadeghi, Alona Tkachenko
-
+Tetiana Bogach, Nataliia Honcharova, Volodymyr Kyryliuk, Nataliia Musiienko, Viktoriia Pavlovska, Elias Sadeghi, Alona Tkachenko
